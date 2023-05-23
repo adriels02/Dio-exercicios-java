@@ -10,31 +10,25 @@ import java.util.Scanner;
 public class Nota0a10 {
 
 	public static void main(String[] args) {
-		
+
 		Scanner leitor = new Scanner(System.in);
-		
+
 		for (;;) {
-			
+
 			System.out.print("Digite a nota entre 0 e 10 ");
 			double nota = leitor.nextDouble();
-			
+
 			if (nota >= 0 && nota <= 10) {
-				
+
 				System.out.println("A nota do aluno e: " + nota);
 				break;
 			}
-			
+
 			else {
-				System.out.println("A nota digitada: " + nota +" e invalida.");
+				System.out.println("A nota digitada: " + nota + " e invalida.");
 			}
-			
-			
-			
-			
+
 		}
-		
-		
-		
-		
+
 	}
 }
